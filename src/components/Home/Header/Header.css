@@ -1,0 +1,41 @@
+.header {
+    height: 100%;
+    padding: 20px;
+    display: flex;
+    color: white;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.header_title {
+    margin: 5px 0;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.header_span {
+    margin: 5px 0;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+.header-btns {
+    margin-top: 30px;
+}
+
+.header_btn {
+    margin: 10px 10px;
+    font-size: 20px;
+    color: white;
+    height: 60px;
+    width: 165px;
+    background: none;
+    border: 1px solid white;
+}
+
+.header_btn:hover {
+    transition: 250ms;
+    background: white;
+    color: black;
+}
