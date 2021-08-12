@@ -12,9 +12,9 @@
 .products_container {
     border-radius: 20px;
     position: relative;
-    bottom: 30px;
+    bottom: 50px;
     padding: 20px;
-    margin: 0 20px;
+    margin: 20px 20px;
     background-color: rgb(22, 22, 22);
     height: 400px;
     width: 300px;
