@@ -1,0 +1,18 @@
+.footer {
+    border-top: 2px solid rgb(238, 122, 122);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 70px;
+    align-items: center;
+    color: var(--cyber-white);
+    box-shadow: -4px -118px 188px 30px rgba(205, 0, 0, 0.5);
+}
+
+.footer ul {
+    display: flex;
+}
+
+.footer ul li {
+    margin: 0 20px;
+}

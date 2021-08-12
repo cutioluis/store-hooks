@@ -1,7 +1,7 @@
 .navigation {
   height: 70px;
   align-items: center;
-  color: var(--cyber-text-color);
+  color: var(--cyber-white);
   background: var(--cyber-nav-color);
   display: flex;
   justify-content: space-around;
