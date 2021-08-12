@@ -3,13 +3,15 @@ import './Nav.css'
 
 const Nav = () => {
     return (
-        <div>
-            <nav className="navigation">
-                <ul>
-                    <li className="navigation_logo">STORE</li>
-                </ul>
-            </nav>
-        </div>
+        <nav>
+            <ul>
+                <p>CyberStore.io</p>
+            </ul>
+            <ul>
+                <input type="text" />
+            </ul>
+            <ul></ul>
+        </nav>
     );
 };
 
