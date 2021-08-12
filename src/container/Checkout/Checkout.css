@@ -1,0 +1,35 @@
+.check {
+    margin: 200px 0;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.check_sell-img {
+    margin: 0 20px;
+    border-radius: 20px;
+    background-color: gray;
+    height: 300px;
+    width: 250px;
+}
+
+.check_sell-details  {
+    padding: 20px;
+    max-width: 400px;
+}
+
+
+.check_add {
+    color: var(--cyber-white);
+    border: 1px solid var(--cyber-white);
+    background: none;
+    border-radius: 20px;
+    height:50px;
+    width: 150px;
+}
+
+.check_title {
+    color: var(--cyber-white);
+    font-size: 40px;
+}

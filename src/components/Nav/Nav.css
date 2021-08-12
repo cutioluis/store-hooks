@@ -9,6 +9,7 @@
 }
 
 .navigation_logo {
+  color: var(--cyber-white);
     font-weight: bold;
 }
 

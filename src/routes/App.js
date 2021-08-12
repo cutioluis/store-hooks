@@ -5,6 +5,8 @@ import Layout from "../Layout/Layout";
 import Home from "../container/Home/Home";
 import NotFound from "../container/NotFound";
 import Success from "../container/Success/Success";
+import Checkout from "../container/Checkout/Checkout";
+
 
 const App = () => {
   return (
@@ -13,6 +15,9 @@ const App = () => {
         <Switch>
           <Route path="/" exact>
             <Home />
+          </Route>
+          <Route path="/checkout" exact>
+            <Checkout />
           </Route>
           <Route path="/checkout/success" exact>
             <Success />

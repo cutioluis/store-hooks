@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Heading.css";
 
 const Heading = () => {
@@ -18,7 +19,9 @@ const Heading = () => {
           above all else.
         </p>
         <div className="heading-buy">
-          <button className="heading_btn">Buy Now</button>
+          <Link to="/checkout">
+            <button className="heading_btn">Buy Now</button>
+          </Link>
           <span className="heading_price">19.99$</span>
         </div>
       </div>
