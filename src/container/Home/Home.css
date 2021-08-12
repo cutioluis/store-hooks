@@ -17,6 +17,15 @@ body {
     background-color: black;
 }
 
+h2 {
+    color: var(--cyber-white);
+}
+
+p {
+    color: var(--cyber-text-blue);
+}
+
+
 a {
     text-decoration: none;
 }

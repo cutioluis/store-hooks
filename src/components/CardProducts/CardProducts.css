@@ -1,0 +1,21 @@
+.products {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.products_container-buy {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.products_container {
+    border-radius: 20px;
+    position: relative;
+    bottom: 30px;
+    padding: 20px;
+    margin: 0 20px;
+    background-color: rgb(22, 22, 22);
+    height: 400px;
+    width: 300px;
+}

@@ -33,6 +33,7 @@
 }
 
 .heading_btn {
+    margin: 10px 0;
     background: var(--cyber-red);
     color: var(--cyber-white);
     border: none;
@@ -47,6 +48,7 @@
 }
 
 .heading_price {
+    color: var(--cyber-white);
     font-weight: bold;
     font-size: 25px;
 }

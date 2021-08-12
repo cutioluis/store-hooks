@@ -1,16 +1,17 @@
-import React from 'react';
-import './Home.css'
+import React from "react";
+import "./Home.css";
 
-import Heading from '../../components/Heading/Heading'
+import Heading from "../../components/Heading/Heading";
+import CardProducts from "../../components/CardProducts/CardProducts";
+
 
 const Home = () => {
-    return (
-        <div className="home">
-            <div>
-             <Heading />
-            </div>
-        </div>
-    );
+  return (
+    <div className="home">
+      <Heading />
+      <CardProducts/>
+    </div>
+  );
 };
 
 export default Home;
