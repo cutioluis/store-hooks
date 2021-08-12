@@ -1,11 +1,23 @@
 .navigation {
-    display: flex;
-    justify-content: center;
-    color: white;
+  height: 70px;
+  align-items: center;
+  color: var(--cyber-text-color);
+  background: var(--cyber-nav-color);
+  display: flex;
+  justify-content: space-around;
 }
 
 .navigation_logo {
-    font-weight: lighter;
-    font-size: 30px;
-    margin: 50px 0;
+    font-weight: bold;
 }
+
+.navigation_input {
+  border: none;
+  height: 40px;
+  padding: 0 20px;
+  width: 300px;
+  color: var(--cyber-text-color);
+  background: var(--cyber-nav-color-place);
+  border-radius: 20px;
+}
+

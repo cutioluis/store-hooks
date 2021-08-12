@@ -1,3 +1,12 @@
+:root {
+    --cyber-nav-color: rgb(29, 26, 26);
+    --cyber-nav-color-place: rgb(54, 54, 54);
+
+    --cyber-text-color: rgb(255, 255, 255);
+    --cyber-text-color-primary: rgb(216, 216, 216);
+    --cyber-btn: #ff0000;
+}
+
 * {
     margin: 0;
     padding: 0;

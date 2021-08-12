@@ -1,16 +1,20 @@
 import React from 'react';
+import { FaShoppingBag } from "react-icons/fa";
+
 import './Nav.css'
 
 const Nav = () => {
     return (
-        <nav>
+        <nav className="navigation">
             <ul>
-                <p>CyberStore.io</p>
+                <p className="navigation_logo">CyberStore.io</p>
             </ul>
             <ul>
-                <input type="text" />
+                <input placeholder="Search games" className="navigation_input" type="text" />
             </ul>
-            <ul></ul>
+            <ul>
+               <FaShoppingBag/>
+            </ul>
         </nav>
     );
 };
