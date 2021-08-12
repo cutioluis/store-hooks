@@ -4,6 +4,7 @@
   color: var(--cyber-white);
   background: var(--cyber-nav-color);
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
 }
 

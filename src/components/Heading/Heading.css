@@ -1,0 +1,52 @@
+.heading {
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    height: 500px;
+    align-items: center;
+}
+
+
+.heading-main {
+    max-width: 600px;
+}
+
+.heading_title {
+    margin: 10px 30px;
+    font-size: 50px;
+}
+
+.heading_paragraph {
+    max-width: 400px;
+    margin: 20px 30px;
+    color: var(--cyber-text-blue);
+}
+
+.heading-buy {
+    margin: 0 30px;
+    display: flex;
+    align-items: center;
+}
+
+.heading-buy span {
+    margin-left: 30px;
+}
+
+.heading_btn {
+    background: var(--cyber-red);
+    color: var(--cyber-white);
+    border: none;
+    border-radius: 20px;
+    width: 150px;
+    height: 50px;
+}
+
+.heading_btn:hover {
+    transition: 350ms;
+    box-shadow: 0px 4px 93px 25px rgba(255, 0, 0, 0.5);
+}
+
+.heading_price {
+    font-weight: bold;
+    font-size: 25px;
+}
