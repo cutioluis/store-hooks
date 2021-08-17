@@ -1,9 +1,9 @@
 import React from "react";
 import "./CardProducts.css";
 
-import { products } from "../../constants/constants";
+import { products } from "../../initialState"
 
-const CardProducts = () => {
+const CardProducts = () => { 
   return (
     <section className="products">
       {

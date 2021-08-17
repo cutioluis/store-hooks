@@ -1,10 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { FaShoppingBag } from "react-icons/fa";
 
 import "./Nav.css";
 
 const Nav = () => {
+
   return (
     <nav className="navigation">
       <ul>

@@ -24,4 +24,21 @@ export const products = [
     id: 3,
     price: 50.99
   },
+  {
+    title: "Faszt and Furios Remaster",
+    description:
+      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur, repudiandae soluta unde architecto ipsum reiciendis.",
+    image: "/img/luis-home4.svg",
+    id: 3,
+    price: 50.99
+  },
+  {
+    title: " Remaster",
+    description:
+      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur, repudiandae soluta unde architecto ipsum reiciendis.",
+    image: "/img/luis-home4.svg",
+    id: 3,
+    price: 50.99
+  },
+  
 ];

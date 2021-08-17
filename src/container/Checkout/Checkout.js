@@ -1,11 +1,12 @@
 import React from "react";
 import { FaShoppingCart } from "react-icons/fa";
+import { AiTwotoneDelete } from "react-icons/ai";
+
 import "./Checkout.css";
 
 const Checkout = () => {
   return (
     <section className="check">
-      <div className="check_sell-img"></div>
       <div className="check_sell-details">
         <h1 className="check_title">CyberPunk 2077 Remaster</h1>
         <p>
@@ -14,11 +15,15 @@ const Checkout = () => {
         </p>
         <button className="heading_btn">Buy Now</button>
         <button className="check_add">
-          <FaShoppingCart style={{
+          <FaShoppingCart
+            style={{
               marginRight: `10px`,
-          }} />
-
+            }}
+          />
           Add to cart
+        </button>
+        <button className="check_add">
+          <AiTwotoneDelete />
         </button>
       </div>
     </section>
