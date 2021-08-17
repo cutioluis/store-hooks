@@ -4,13 +4,7 @@ import "./Heading.css";
 
 const Heading = () => {
   return (
-    <section
-      style={{
-        backgroundImage: `url("https://wallpaperforu.com/wp-content/uploads/2020/07/dark-wallpaper-20072813302745.jpg")`,
-        backgroundSize: `cover`,
-      }}
-      className="heading"
-    >
+    <section className="heading">
       <div className="heading-main">
         <h1 className="heading_title">CYBERPUNK 2077 REMASTER</h1>
         <p className="heading_paragraph">

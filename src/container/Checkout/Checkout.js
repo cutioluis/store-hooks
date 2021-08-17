@@ -17,6 +17,7 @@ const Checkout = () => {
           <FaShoppingCart style={{
               marginRight: `10px`,
           }} />
+
           Add to cart
         </button>
       </div>

@@ -1,5 +1,6 @@
 .navigation {
   height: 70px;
+  padding: 10px;
   align-items: center;
   color: var(--cyber-white);
   background: var(--cyber-nav-color);
@@ -10,11 +11,12 @@
 
 .navigation_logo {
   color: var(--cyber-white);
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .navigation_input {
   border: none;
+  margin: 10px 0;
   height: 40px;
   padding: 0 20px;
   width: 300px;
@@ -22,4 +24,3 @@
   background: var(--cyber-nav-color-place);
   border-radius: 20px;
 }
-
